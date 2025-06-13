@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
+# notebooks checkpoints directory
+.ipynb_checkpoints/
+
+# Python bytecode and C extensions
+*.pyo
+*.pyd
+*.so
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Experiment artifacts
+*.pt
+*.pth
+*.h5
+*.pkl
+*.npz
+
+# Dataset or model directories
+data/
+datasets/
+models/
+checkpoints/
+logs/
+
+# Pytest cache
+.pytest_cache/
